@@ -38,6 +38,10 @@ describe('User Age Calculation', () => {
     let user2 = new User ("Old Zahnen", 74)
     expect(user2.expectCalc()).toEqual(2)
   });
+
+  test('should determine life expectancy on a planet other than Earth and return the result', () => {
+    expect((user.expectCalc()).mercCalc()).toEqual(183)
+  });
 });
 
 
