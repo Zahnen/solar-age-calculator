@@ -17,6 +17,10 @@ describe('User Age Calculation', () => {
   test('should convert the users age from earth years to Mercury years and return the result', () => {
     expect(user.mercCalc()).toEqual(116)
   });
+
+  test('should convert the users age from earth years to Venus years and return the result', () => {
+    expect(user.venusCalc()).toEqual(45)
+  });
 });
 
 
@@ -44,15 +48,15 @@ Test: "It should convert the user's age from earth years to Mercury years and re
 Expect: ((user.age).mercCalc).toEqual(116.66)
 
 Describe: venusCalc
-Test: "It should convert the user's age from earth years to Mercury years and return the result"
+Test: "It should convert the user's age from earth years to Venus years and return the result"
 Expect: ((user.age).venusCalc).toEqual(45.16)
 
 Describe: marsCalc
-Test: "It should convert the user's age from earth years to Mercury years and return the result"
+Test: "It should convert the user's age from earth years to Mars years and return the result"
 Expect: ((user.age).marsCalc).toEqual(14.89)
 
 Describe: jupiterCalc
-Test: "It should convert the user's age from earth years to Mercury years and return the result"
+Test: "It should convert the user's age from earth years to Jupiter years and return the result"
 Expect: ((user.age).jupiterCalc).toEqual(2.36)
 
 Describe: expectCalc
