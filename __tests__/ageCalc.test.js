@@ -39,7 +39,7 @@ describe('User Age Calculation', () => {
     expect(user2.expectCalc()).toEqual(2)
   });
 
-  test('should determine life expectancy on a planet other than Earth and return the result', () => {
+  test('should determine life expectancy on a Mercury and return the result', () => {
     expect(user.mercExpCalc()).toEqual(183)
   });
 });
