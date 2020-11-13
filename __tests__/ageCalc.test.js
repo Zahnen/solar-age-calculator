@@ -15,7 +15,7 @@ describe('User Age Calculation', () => {
   });
 
   test('should convert the users age from earth years to Mercury years and return the result', () => {
-    expect((user.age).mercCalc).toEqual(116.66)
+    expect(user.mercCalc()).toEqual(116.66)
   });
 });
 
