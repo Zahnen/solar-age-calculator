@@ -29,6 +29,10 @@ describe('User Age Calculation', () => {
   test('should convert the users age from earth years to Jupiter years and return the result', () => {
     expect(user.jupCalc()).toEqual(2)
   });
+
+  test('should determine life expectancy in Earth years by subtracting user age from 72.2 and return the result', () => {
+    expect(user.expectCalc()).toEqual(44)
+  });
 });
 
 
