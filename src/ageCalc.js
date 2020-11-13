@@ -23,4 +23,9 @@ export default class User {
     let jupAge = Math.floor(this.age / 11.86);
     return jupAge;
   }
+
+  expectCalc() {
+    let expAge = Math.floor(72.2 - this.age);
+    return expAge;
+  }
 };
