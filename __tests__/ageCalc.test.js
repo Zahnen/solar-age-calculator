@@ -1,4 +1,19 @@
+import { TestScheduler } from 'jest';
+import User from '../src/ageCalc.js';
 
+describe('User Age Calculation', () => {
+
+  let user;
+
+  beforeEach(() => {
+    user = new User ("Zahnen", 28);
+  });
+
+  test('should correctly create a user object with name and age properties', () => {
+    expect(user.name).toEqual("Zahnen");
+    expect(user.age).toEqual(28);
+  });
+});
 
 
 
