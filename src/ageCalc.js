@@ -5,7 +5,7 @@ export default class User {
   }
 
   mercCalc() {
-    let mercAge = (this.age / .24);
+    let mercAge = Math.floor(this.age / .24);
     return mercAge;
   }
 };
