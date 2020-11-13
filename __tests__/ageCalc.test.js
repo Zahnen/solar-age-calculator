@@ -33,6 +33,10 @@ describe('User Age Calculation', () => {
   test('should determine life expectancy in Earth years by subtracting user age from 72.2 and return the result', () => {
     expect(user.expectCalc()).toEqual(44)
   });
+
+  test('should return number of years lived past life expectancy if user age is greater than 72.2', () => {
+    expect(user.expectCalc()).toEqual(2)
+  });
 });
 
 
