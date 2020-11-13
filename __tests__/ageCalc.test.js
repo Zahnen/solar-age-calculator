@@ -50,6 +50,10 @@ describe('User Age Calculation', () => {
   test('should determine life expectancy on Mars and return the result', () => {
     expect(user.marsExpCalc()).toEqual(23)
   });
+
+  test('should determine life expectancy on Jupiter and return the result', () => {
+    expect(user.jupExpCalc()).toEqual(3)
+  });
 });
 
 
