@@ -1,0 +1,13 @@
+body, .navbar {
+  background-color: #013a63;
+  color: #d9dcd6;
+}
+.card {
+  background-color: #013a63;
+}
+#planetResults {
+  display: none;
+}
+h1 {
+  text-align: left;
+}

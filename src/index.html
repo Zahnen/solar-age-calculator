@@ -4,33 +4,34 @@
   <title>Solar Age Calculator</title>
 </head>
 <body>
-  <nav class="navbar navbar-light bg-light">
-    <a class = "navbar-brand" href="#">
-      <img src="./assets/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt=""> Depart
-    </a>
+  <nav class="navbar navbar-dark">
+    <img src="./assets/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="logo of space shuttle">
+    <h1 class="navbar-brand">Departure&trade;</h1>
   </nav>
   <div class="container">
     <div>
-      <p>If you're reading this, you've likely made the decision to start a new life in a colony on one of our neighboring planets. There are currently four colonies accepting new residents: Mercury, Venus, Mars, and Jupiter. In order to submit your application for departure, you'll need to decide on which colony you'd like to join. To make this process easier, the team at Departure has provided a tool to help you understand your remaining years on any other colony with consideration of that colony's solar calendar.</p>
+      <h1>Get ready to Depart&trade;</h1>
+      <p>If you're reading this, you've made the hard decision to start a new life in a colony on one of our neighboring planets. There are currently four colonies accepting new residents: Mercury, Venus, Mars, and Jupiter. In order to submit your application for Departure&trade;, you'll need to decide on which colony you'd like to join. To make this process easier, the team at Departure&trade; has provided a tool to help you understand your remaining years on a non-Earth colony with consideration of that colony's solar calendar.</p>
     </div>
     <div class="container">
-    <form id="userForm">
-      <div class="form-group row">
-        <div class="col-xs-3">
-          <label for="name">Enter your name:</label>
-          <input id="name" class="form-control" type="text" required/>
+      <form id="userForm">
+        <div class="form-group row">
+          <div class="col-lg-6">
+            <label for="name">Enter your name:</label>
+            <input id="name" class="form-control" type="text" required/>
+          </div>
+          <div class="col-lg-6">
+            <label for="age">Enter your age:</label>
+            <input id="age" class="form-control" type="number" required/>
+          </div>
         </div>
-        <div class="col-xs-3">
-          <label for="age">Enter your age:</label>
-          <input id="age" class="form-control" type="number" required/>
-        </div>
-      </div>
-      <button type="submit" class="btn btn-outline-primary">Submit!</button>
-    </form>
+        <button type="submit" class="btn btn-outline-primary">Submit!</button>
+      </form>
+    </div>
   </div>
-  <div class ="container" id=planetResults>
+  <div class="container" id="planetResults">
     <div>
-      <p>Thanks for providing this information, <span class="userName"></span>. Please find below the results of our calculations for use in determining which colony you should Depart to. We at Depart recommend that you look into Departing to Mercury, where you may be able to celebrate more birthdays before you expire.</p>
+      <p>Thanks for providing this information, <span class="userName"></span>. Please find below the results of our calculations for use in determining which colony you should Depart&trade; to. We at Departure&trade; recommend that you look into Departing&trade; to Mercury, where you may be able to celebrate more birthdays before you expire.</p>
     </div>
     <div class="row">
       <div class="col-3">
