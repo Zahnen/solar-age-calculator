@@ -42,4 +42,9 @@ export default class User {
     let marsExpAge = Math.floor(expAge / 1.88);
     return marsExpAge;
   }
+  jupExpCalc() {
+    let expAge = Math.floor(72.2 - this.age);
+    let jupExpAge = Math.floor(expAge / 11.86);
+    return jupExpAge;
+  }
 };
