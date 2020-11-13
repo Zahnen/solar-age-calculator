@@ -21,6 +21,10 @@ describe('User Age Calculation', () => {
   test('should convert the users age from earth years to Venus years and return the result', () => {
     expect(user.venusCalc()).toEqual(45)
   });
+
+  test('should convert the users age from earth years to Mars years and return the result', () => {
+    expect(user.marsCalc()).toEqual(14)
+  });
 });
 
 
