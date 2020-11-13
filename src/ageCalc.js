@@ -37,4 +37,9 @@ export default class User {
     let venusExpAge = Math.floor(expAge / .62);
     return venusExpAge;
   }
+  marsExpCalc() {
+    let expAge = Math.floor(72.2 - this.age);
+    let marsExpAge = Math.floor(expAge / 1.88);
+    return marsExpAge;
+  }
 };
