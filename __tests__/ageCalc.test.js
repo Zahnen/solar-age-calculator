@@ -35,7 +35,8 @@ describe('User Age Calculation', () => {
   });
 
   test('should return number of years lived past life expectancy if user age is greater than 72.2', () => {
-    expect(user.expectCalc()).toEqual(2)
+    let user2 = new User ("Old Zahnen", 74)
+    expect(user2.expectCalc()).toEqual(2)
   });
 });
 
