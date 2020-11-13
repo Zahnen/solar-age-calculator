@@ -10,22 +10,24 @@
   </nav>
   <div class="container">
     <div>
-      <h1>Get ready to Depart&trade;</h1>
+      <h1 class="display-4">Get ready to Depart&trade;</h1>
       <p>If you're reading this, you've made the hard decision to start a new life in a colony on one of our neighboring planets. There are currently four colonies accepting new residents: Mercury, Venus, Mars, and Jupiter. In order to submit your application for Departure&trade;, you'll need to decide on which colony you'd like to join. To make this process easier, the team at Departure&trade; has provided a tool to help you understand your remaining years on a non-Earth colony with consideration of that colony's solar calendar.</p>
     </div>
     <div class="container">
       <form id="userForm">
         <div class="form-group row">
-          <div class="col-lg-6">
+          <div class="col-lg-5">
             <label for="name">Enter your name:</label>
             <input id="name" class="form-control" type="text" required/>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-5">
             <label for="age">Enter your age:</label>
-            <input id="age" class="form-control" type="number" required/>
+            <input id="age" class="form-control" min="0" type="number" required/>
+          </div>
+          <div class="col-2">
+            <button type="submit" class="btn btn-outline-light">Submit!</button>
           </div>
         </div>
-        <button type="submit" class="btn btn-outline-primary">Submit!</button>
       </form>
     </div>
   </div>
