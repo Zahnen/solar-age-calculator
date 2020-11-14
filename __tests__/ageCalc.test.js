@@ -1,5 +1,5 @@
 import { TestScheduler } from 'jest';
-import User from '../src/ageCalc.js';
+import User from '../src/js/ageCalc.js';
 
 describe('User Age Calculation', () => {
 

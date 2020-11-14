@@ -13,32 +13,20 @@ _This webpage was created as my independent project for my fifth week at Epicodu
 ### If you would like to run the webpage on GitHub Pages
 * _Open your browser_
 * _Navigate to https://zahnen.github.io/solar-age-calculator_
-* 
 
 ### If you would like to run the webpage locally
-* _Open your browser_
-* _Navigate to https://github.com/Zahnen/solar-age-calculator_
-* _Click the green "Code" button toward the top right of the page_
-* _Download the ZIP file by selecting this option in the dropdown menu_
-* _Right click and extract the contents of the file to the location of your choosing_
-* _Once extracted, open the directory you've just extracted._
-* _Open the file titled "index.html"_
-*
-
-  **OR**
 
 * _Open your git-capable command line program (I recommend Terminal on Mac or Git Bash on PC)_
 * _Ensure you are within the directory you'd like the file to be created in._
 * _Enter the command "$ git clone https://github.com/Zahnen/solar-age-calculator" in your command line_
 * _Once cloned, use the "$ cd " command to navigate to the directory created in the previous step._
-* _Once in the newly cloned directory, enter the command "$ start index.html" to open the webpage in your default browser._
-* 
+* _You must have node.js installed in order to run the webpage successfully. If you do not have node.js installed, find more information and download it [here](https://nodejs.org/en/download/)_
+* _Once in the newly cloned directory, run "$ npm install" to install the necessary packages and dependencies._
+* _To open the webpage in your default browser, run "$ npm start"._
 
 ## Specs
 
-**Describe: Pizza Object Constructor**
-
-* _Test: 
+* _To review the specs that were tested in the development of this webpage, please refer to the ageCalc.test.js file located in the "tests" directory_
 
 ## Known Bugs
 
@@ -62,6 +50,7 @@ _This webpage required use of the following programs/languages/libraries to crea
 * _JQuery_
 * _Node.js_
 * _npm_
+* _Jest_
 * _For a full list of packages/dependencies, feel free to have a look in the file titled package.json_
 
 ### License

@@ -11,6 +11,9 @@ body {
 #planetResults {
   display: none;
 }
+#tooOldResults {
+  display: none;
+}
 .col-2 {
   display: flex;
 }
