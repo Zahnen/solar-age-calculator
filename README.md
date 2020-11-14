@@ -11,8 +11,7 @@ _This webpage was created as my independent project for my fifth week at Epicodu
 ## Setup/Installation Requirements
 
 ### If you would like to run the webpage on GitHub Pages
-* _Open your browser_
-* _Navigate to https://zahnen.github.io/solar-age-calculator_
+* _[Click Here](https://zahnen.github.io/solar-age/dist/index.html)_
 
 ### If you would like to run the webpage locally
 
