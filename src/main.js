@@ -18,15 +18,34 @@ $(document).ready(function() {
     const marsExpAge = (user.marsExpCalc());
     const jupAge = (user.jupCalc());
     const jupExpAge = (user.jupExpCalc());
-    $('#planetResults').show();
-    $('.userName').append(name);
-    $('#mercAge').append(mercAge);
-    $('#mercExpAge').append(mercExpAge);
-    $('#venusAge').append(venusAge);
-    $('#venusExpAge').append(venusExpAge);
-    $('#marsAge').append(marsAge);
-    $('#marsExpAge').append(marsExpAge);
-    $('#jupAge').append(jupAge);
-    $('#jupExpAge').append(jupExpAge);
+    const mercOldAge = (user.mercExpCalc() * -1);
+    const venusOldAge = (user.venusExpCalc() * -1);
+    const marsOldAge = (user.marsExpCalc() * -1);
+    const jupOldAge = (user.jupExpCalc() * -1);
+    if (age < 72.2) {
+      $('#planetResults').fadeIn();
+      $('#tooOldResults').hide();
+      $('.userName').html(" " + name);
+      $('.mercAge').html(" " + mercAge);
+      $('#mercExpAge').html(" " + mercExpAge);
+      $('.venusAge').html(" " + venusAge);
+      $('#venusExpAge').html(" " + venusExpAge);
+      $('.marsAge').html(" " + marsAge);
+      $('#marsExpAge').html(" " + marsExpAge);
+      $('.jupAge').html(" " + jupAge);
+      $('#jupExpAge').html(" " + jupExpAge);
+    } else {
+      $('#tooOldResults').fadeIn();
+      $('#planetResults').hide();
+      $('.userName').html(" " + name);
+      $('.mercAge').html(" " + mercAge);
+      $('#mercOldAge').html(" " + mercOldAge);
+      $('.venusAge').html(" " + venusAge);
+      $('#venusOldAge').html(" " + venusOldAge);
+      $('.marsAge').html(" " + marsAge);
+      $('#marsOldAge').html(" " + marsOldAge);
+      $('.jupAge').html(" " + jupAge);
+      $('#jupOldAge').html(" " + jupOldAge);
+    }
   });
 });
