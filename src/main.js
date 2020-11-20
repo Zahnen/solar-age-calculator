@@ -25,27 +25,27 @@ $(document).ready(function() {
     if (age < 72.2) {
       $('#planetResults').fadeIn();
       $('#tooOldResults').hide();
-      $('.userName').html(" " + name);
-      $('.mercAge').html(" " + mercAge);
-      $('#mercExpAge').html(" " + mercExpAge);
-      $('.venusAge').html(" " + venusAge);
-      $('#venusExpAge').html(" " + venusExpAge);
-      $('.marsAge').html(" " + marsAge);
-      $('#marsExpAge').html(" " + marsExpAge);
-      $('.jupAge').html(" " + jupAge);
-      $('#jupExpAge').html(" " + jupExpAge);
+      $('.userName').html(` ${name}`);
+      $('.mercAge').html(` ${mercAge}`);
+      $('#mercExpAge').html(` ${mercExpAge}`);
+      $('.venusAge').html(` ${venusAge}`);
+      $('#venusExpAge').html(` ${venusExpAge}`);
+      $('.marsAge').html(` ${marsAge}`);
+      $('#marsExpAge').html(` ${marsExpAge}`);
+      $('.jupAge').html(` ${jupAge}`);
+      $('#jupExpAge').html(` ${jupExpAge}`);
     } else {
       $('#tooOldResults').fadeIn();
       $('#planetResults').hide();
-      $('.userName').html(" " + name);
-      $('.mercAge').html(" " + mercAge);
-      $('#mercOldAge').html(" " + mercOldAge);
-      $('.venusAge').html(" " + venusAge);
-      $('#venusOldAge').html(" " + venusOldAge);
-      $('.marsAge').html(" " + marsAge);
-      $('#marsOldAge').html(" " + marsOldAge);
-      $('.jupAge').html(" " + jupAge);
-      $('#jupOldAge').html(" " + jupOldAge);
+      $('.userName').html(` ${name}`);
+      $('.mercAge').html(` ${mercAge}`);
+      $('#mercOldAge').html(` ${mercOldAge}`);
+      $('.venusAge').html(` ${venusAge}`);
+      $('#venusOldAge').html(` ${venusOldAge}`);
+      $('.marsAge').html(` ${marsAge}`);
+      $('#marsOldAge').html(` ${marsOldAge}`);
+      $('.jupAge').html(` ${jupAge}`);
+      $('#jupOldAge').html(` ${jupOldAge}`);
     }
   });
 });

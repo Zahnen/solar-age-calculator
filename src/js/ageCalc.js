@@ -22,9 +22,9 @@ export default class User {
   expectCalc() {
     let expAge = Math.floor(72.2 - this.age);
     if (expAge < 0) {
-    return (expAge * -1);
+      return (expAge * -1);
     } else {
-    return expAge;
+      return expAge;
     }
   }
   mercExpCalc() {
@@ -47,4 +47,4 @@ export default class User {
     let jupExpAge = Math.floor(expAge / 11.86);
     return jupExpAge;
   }
-};
+}
